@@ -1,36 +1,12 @@
-Segue o Relatorio
+## Resumo:
+[ vulnerabilidade são essas, media ]
 
-Escaneando Falha no
-Gemini VDP
+## Passos para reproduzir:
+[adicione detalhes sobre como podemos reproduzir o problema]
 
-
-https://docs.gemini.com/"🚕"
-404 Not Found
-Code: NoSuchKey
-Message: The specified key does not exist.
-Key: "🚕"
-RequestId: 8DYYMTKJS2CH9K27
-HostId: /9gJ4V8A1fOFYicigz8h1lcWpv3uhBdjrK3oyeVfsPslVc2eo2dSVioOLTUskDxjohO2dyipbK8=
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
-
-https://docs.gemini.com/test123/
-404 Not Found
-Code: NoSuchKey
-Message: The specified key does not exist.
-Key: test123/index.html
-RequestId: JF00205DA3BTBG2Y
-HostId: E5rQOCJ2oNol7avTaJyAwzDE+7vCEAhgaYXCQIfq8MJdH8fxLB04HYer6+onhY+aAl4N8CKyX7Y=
-
-Esses acima o relatorio é manual
-----------------------------------------------------------------------------
-
-Ferramenta Pyosint, para usei para scannear todoas as urls interno & do site
-
-root@localhost:~/PyosintOffical# python3 pyosint.py -m scrap -n https://www.gemini.com/
+  1. [scanner scraping ]
 
 URLs internos:
-
-
 https://www.gemini.com/careers
 https://www.gemini.com/earn
 https://www.gemini.com/blog/gemini-completes-soc-1-type-2-and-soc-2-type-2-examinations-leading-crypto
@@ -94,9 +70,7 @@ https://www.gemini.com/credit-card
 https://www.gemini.com/jobs/university-programs--recruiting-lead
 https://www.gemini.com/security
 https://www.gemini.com/jobs/lead-security-grc
-
 URLs externas:
-
 https://support.gemini.com/
 https://niftygateway.com/
 https://creditcard.exchange.gemini.com/credit-card/apply
@@ -108,3 +82,30 @@ https://twitter.com/gemini
 https://exchange.gemini.com/signin
 https://nfty.pub/3PAP6xN
 
+2. [Encontrando no manual]
+https://docs.gemini.com/"🚕"
+404 Not Found
+Code: NoSuchKey
+Message: The specified key does not exist.
+Key: "🚕"
+RequestId: 8DYYMTKJS2CH9K27
+HostId: /9gJ4V8A1fOFYicigz8h1lcWpv3uhBdjrK3oyeVfsPslVc2eo2dSVioOLTUskDxjohO2dyipbK8=
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+
+https://docs.gemini.com/test123/
+404 Not Found
+Code: NoSuchKey
+Message: The specified key does not exist.
+Key: test123/index.html
+RequestId: JF00205DA3BTBG2Y
+HostId: E5rQOCJ2oNol7avTaJyAwzDE+7vCEAhgaYXCQIfq8MJdH8fxLB04HYer6+onhY+aAl4N8CKyX7Y=
+
+  3. [ Possiveis vulnerabilidades]
+
+## Material de Apoio/Referências:
+
+#link das ferramentas utlizada
+
+https://github.com/jovemsigilosodobembr/PyosintOffical
+
+https://github.com/jovemsigilosodobembr/uniscan
