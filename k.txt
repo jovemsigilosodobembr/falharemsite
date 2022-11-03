@@ -1,4 +1,4 @@
-#Relatorio
+Segue o Relatorio
 
 Escaneando Falha no
 Gemini VDP
@@ -11,7 +11,8 @@ Message: The specified key does not exist.
 Key: "🚕"
 RequestId: 8DYYMTKJS2CH9K27
 HostId: /9gJ4V8A1fOFYicigz8h1lcWpv3uhBdjrK3oyeVfsPslVc2eo2dSVioOLTUskDxjohO2dyipbK8=
-----------------------------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+
 https://docs.gemini.com/test123/
 404 Not Found
 Code: NoSuchKey
@@ -20,4 +21,90 @@ Key: test123/index.html
 RequestId: JF00205DA3BTBG2Y
 HostId: E5rQOCJ2oNol7avTaJyAwzDE+7vCEAhgaYXCQIfq8MJdH8fxLB04HYer6+onhY+aAl4N8CKyX7Y=
 
+Esses acima o relatorio é manual
 ----------------------------------------------------------------------------
+
+Ferramenta Pyosint, para usei para scannear todoas as urls interno & do site
+
+root@localhost:~/PyosintOffical# python3 pyosint.py -m scrap -n https://www.gemini.com/
+
+URLs internos:
+
+
+https://www.gemini.com/careers
+https://www.gemini.com/earn
+https://www.gemini.com/blog/gemini-completes-soc-1-type-2-and-soc-2-type-2-examinations-leading-crypto
+https://www.gemini.com/jobs/data-engineer
+https://www.gemini.com/learn
+https://www.gemini.com/institutions/liquidity-providers
+https://www.gemini.com/jobs/product-manager-lead
+https://www.gemini.com/staking
+https://www.gemini.com/activetrader
+https://www.gemini.com/news
+https://www.gemini.com/bitria
+https://www.gemini.com/jobs/lead-marketing-operations
+https://www.gemini.com/jobs/risk-associate
+https://www.gemini.com/jobs/engineering-manager-trading--core-experience
+https://www.gemini.com/about
+https://www.gemini.com/institutions/fund-managers
+https://www.gemini.com/jobs/fraud-operations-associate
+https://www.gemini.com/jobs/engineering-manager
+https://www.gemini.com/jobs/manager-software-engineering
+https://www.gemini.com/jobs/principal-global-tax
+https://www.gemini.com/
+https://www.gemini.com/jobs/senior-data-scientist
+https://www.gemini.com/jobs/senior-platform-engineer-developer-productivity
+https://www.gemini.com/jobs/principal-software-engineer-custody-team
+https://www.gemini.com/internships
+https://www.gemini.com/jobs/senior-application-support-engineer
+https://www.gemini.com/jobs/senior-software-engineer--fraud
+https://www.gemini.com/products
+https://www.gemini.com/clearing
+https://www.gemini.com/settlement
+https://www.gemini.com/blog
+https://www.gemini.com/blog/securing-your-gemini-account-with-webauthn
+https://www.gemini.com/jobs/principal-people-business-partner
+https://www.gemini.com/jobs/senior-fraud-associate
+https://www.gemini.com/internships-faq
+https://www.gemini.com/wallet
+https://www.gemini.com/jobs/head-of-talent-acquisition
+https://www.gemini.com/cryptopedia
+https://www.gemini.com/dollar
+https://www.gemini.com/institutions/wealth-managers
+https://www.gemini.com/jobs/recruiting-operations-associate
+https://www.gemini.com/institutions/corporations
+https://www.gemini.com/jobs/senior-software-engineer
+https://www.gemini.com/jobs/software-engineer-fraud
+https://www.gemini.com/blog/gemini-completes-soc-2-type-2-examination-another-first-in-crypto
+https://www.gemini.com/jobs/staff-site-reliability-engineer
+https://www.gemini.com/jobs/principal-software-engineer
+https://www.gemini.com/exchange
+https://www.gemini.com/institutions
+https://www.gemini.com/jobs/associate-credit-risk
+https://www.gemini.com/prices
+https://www.gemini.com/jobs/head-of-risk
+https://www.gemini.com/jobs/accounts-payable-accountant
+https://www.gemini.com/jobs/principal-people-analytics
+https://www.gemini.com/legal/user-agreement
+https://www.gemini.com/custody
+https://www.gemini.com/prime
+https://www.gemini.com/jobs/senior-machine-learning-engineer
+https://www.gemini.com/jobs/staff-software-engineer-smart-contracts
+https://www.gemini.com/credit-card
+https://www.gemini.com/jobs/university-programs--recruiting-lead
+https://www.gemini.com/security
+https://www.gemini.com/jobs/lead-security-grc
+
+URLs externas:
+
+https://support.gemini.com/
+https://niftygateway.com/
+https://creditcard.exchange.gemini.com/credit-card/apply
+https://geminiexchange.app.link/fL2oDHN39pb
+https://www.linkedin.com/company/geminitrust/
+https://www.facebook.com/GeminiTrust/
+https://exchange.gemini.com/register
+https://twitter.com/gemini
+https://exchange.gemini.com/signin
+https://nfty.pub/3PAP6xN
+
