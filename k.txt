@@ -1,0 +1,23 @@
+#Relatorio
+
+Escaneando Falha no
+Gemini VDP
+
+
+https://docs.gemini.com/"🚕"
+404 Not Found
+Code: NoSuchKey
+Message: The specified key does not exist.
+Key: "🚕"
+RequestId: 8DYYMTKJS2CH9K27
+HostId: /9gJ4V8A1fOFYicigz8h1lcWpv3uhBdjrK3oyeVfsPslVc2eo2dSVioOLTUskDxjohO2dyipbK8=
+----------------------------------------------------------------------------------------
+https://docs.gemini.com/test123/
+404 Not Found
+Code: NoSuchKey
+Message: The specified key does not exist.
+Key: test123/index.html
+RequestId: JF00205DA3BTBG2Y
+HostId: E5rQOCJ2oNol7avTaJyAwzDE+7vCEAhgaYXCQIfq8MJdH8fxLB04HYer6+onhY+aAl4N8CKyX7Y=
+
+----------------------------------------------------------------------------
